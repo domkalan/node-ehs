@@ -1,5 +1,5 @@
 const yargs = require('yargs');
-require('./lib/fs-loader')({
+require('./index.js').fsLoader({
     dir:yargs.argv.dir || process.env['ehs_dir'] || process.cwd(),
     
     fsScan: yargs.argv.fsScan || false,
