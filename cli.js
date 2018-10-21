@@ -23,6 +23,6 @@ require('./index.js').fsLoader({
     
     fsScan: yargs.argv.fsScan || false,
 
-    port:yargs.argv.port || process.env.port,
-    host:yargs.argv.host || process.env.host
+    port:yargs.argv.port || process.env.PORT,
+    host:yargs.argv.host || process.env.HOST
 });
