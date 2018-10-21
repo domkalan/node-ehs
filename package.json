@@ -1,6 +1,6 @@
 {
   "name": "ehs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy HTTP Server",
   "main": "index.js",
   "directories": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/domkalan/ehs.git"
+    "url": "git+https://github.com/domkalan/node-ehs.git"
   },
   "keywords": [
     "http",
