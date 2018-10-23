@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const yargs = require('yargs');
 const fs = require('fs');
 const path = require('path');
@@ -18,7 +19,7 @@ if (yargs.argv['create-project'] && yargs.argv['create-project'] != '') {
     process.exit();
 }
 
-require('./index.js').fsLoader({
+require('../index.js').fsLoader({
     dir:yargs.argv.dir || process.env['ehs_dir'] || process.cwd(),
     
     fsScan: yargs.argv.fsScan || false,
