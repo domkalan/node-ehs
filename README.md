@@ -10,11 +10,11 @@ If you wish to run ehs via the command line, run `sudo npm install ehs -g`.
 ```JavaScript
 const ehs = require('ehs');
 
-const server = require('./instance.js')({
+const server = ehs.server({
     debugText: true, //do you want to see debug text in the console
 
-    port: settings.port, //what port to listen
-    host: settings.host //what address to listen
+    port: 3000, //what port to listen
+    host: '0.0.0.0' //what address to listen
 });
 
 server.route('/', 'GET', function(req, res) {

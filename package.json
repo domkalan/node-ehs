@@ -1,6 +1,6 @@
 {
   "name": "ehs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Easy HTTP Server",
   "main": "index.js",
   "directories": {
